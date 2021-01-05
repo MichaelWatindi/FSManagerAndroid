@@ -1,0 +1,26 @@
+<menu xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuItem_viewBooks"
+        android:title="View Books" />
+
+    <item android:id="@+id/menuItem_addBook"
+        android:title="Add Book"/>
+
+    <item android:id="@+id/menuItem_removeBook"
+        android:title="Remove Book" />
+
+    <item android:id="@+id/menuItem_editBook"
+        android:title="Edit Book"/>
+
+    <item android:id="@+id/menuItem_clearScreen"
+        android:title="Clear screen" />
+
+    <item android:id="@+id/menuItem_saveBook"
+        android:title="Save" />
+
+    <item android:id="@+id/menuItem_cancel"
+        android:title="Cancel" />
+
+</menu>

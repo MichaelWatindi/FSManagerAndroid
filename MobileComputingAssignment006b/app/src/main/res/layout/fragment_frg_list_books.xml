@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uab.tindi.mobilecomputingassignment006b.FrgListBooks">
+
+    <!-- TODO: Update blank fragment dialog_book_filter -->
+    <ListView
+        android:id="@+id/listView_ListBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--android:divider="#8e8e8e"
+        android:dividerHeight="1dp"-->
+
+    </ListView>
+
+
+</LinearLayout>
