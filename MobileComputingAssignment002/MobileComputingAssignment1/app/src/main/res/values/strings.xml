@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assgn One</string>
+    <string name="text_view_place_holder_string">Enter message here ... </string>
+    <string name="button_send_string__txtMsg">Send text</string>
+    <string name="button_send_string_email">Send e-mail</string>
+    <string name="Hint_to">To</string>
+    <string name="Hint_Subject">Subject</string>
+    <string name="Hint_Message">Message</string>
+    <string name="btn_string_send">Send</string>
+</resources>

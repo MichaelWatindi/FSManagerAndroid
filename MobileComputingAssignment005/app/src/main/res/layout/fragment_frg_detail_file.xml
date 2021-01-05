@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="layout.FrgDetailFile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/TextView_FileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="file name"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/editText_FileContents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Lorem ipsum ... "
+        android:gravity="top"
+        android:padding="10dp"
+        />
+
+</LinearLayout>

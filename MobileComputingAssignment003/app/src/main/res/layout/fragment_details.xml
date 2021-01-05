@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.uab.tindi.mobilecomputingassignment003.DetailsFragment">
+
+    <TextView
+        android:id="@+id/CourseName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Name"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/CourseInstructor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Instructor"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/CourseTextBook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Textbook"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/CourseRoom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Room"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/CourseDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Description"
+        android:textColor="#000" />
+
+</LinearLayout>

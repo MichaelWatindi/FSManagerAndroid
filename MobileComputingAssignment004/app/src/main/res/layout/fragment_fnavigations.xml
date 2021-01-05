@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.uab.tindi.mobilecomputingassignment004.FNavigationFragment">
+
+    <TextView
+        android:id="@+id/txtView_FrgmntNavigationUserID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User is :     User Name"/>
+
+    <Button
+        android:id="@+id/btn_AddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="1. New Task"/>
+
+    <Button
+        android:id="@+id/btn_DisplayAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="2. List of All Tasks"/>
+
+    <Button
+        android:id="@+id/btn_DisplayCompleteTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="3. List of complete tasks"/>
+
+    <Button
+        android:id="@+id/btn_DisplayIncompleteTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="4. List of incomplete tasks"/>
+
+    <Button
+        android:id="@+id/btn_DisplayTasksDueOnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="5. Tasks to be completed on Date"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_NavigationSearchTask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="TITLE OF THE TASK"/>
+
+        <Button
+            android:id="@+id/btn_DisplayTasksSearched"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:text="6. Search Tasks"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_NavigationIDOfTask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:hint="ID OF THE TASK"/>
+
+        <Button
+            android:id="@+id/btn_NavigationEditTask"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:text="7. Edit Task"/>
+
+    </LinearLayout>
+
+</LinearLayout>

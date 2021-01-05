@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="edu.uab.tindi.mobilecomputingassignment004.FAddTaskFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_AddTaskSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btn_AddTaskCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/chkbox_navigationCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completed"/>
+    <EditText
+        android:id="@+id/editText_AddTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TITLE"/>
+
+    <EditText
+        android:id="@+id/editText_AddTaskDateDue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DUE YYYY-MM-DD"
+        android:inputType="datetime" />
+
+    <EditText
+        android:id="@+id/editText_AddTaskDateAssigned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ASSIGNED YYYY-MM-DD"
+        android:inputType="datetime" />
+
+    <EditText
+        android:id="@+id/editText_AddTaskProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PROJECT"/>
+
+    <Spinner
+        android:id="@+id/spinnerAddTaskPickUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
